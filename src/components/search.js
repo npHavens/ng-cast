@@ -1,5 +1,8 @@
 angular.module('video-player')
 
 .component('search', {
-  // TODO
+  templateUrl: 'search.html',
+  bindings: {
+
+  }
 });
