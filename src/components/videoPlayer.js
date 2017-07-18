@@ -3,14 +3,15 @@ angular.module('video-player')
     templateUrl: 'src/templates/videoPlayer.html',
 
     controller: function() {
+      // test = () => console.log('this.video: ', this.video);
+      // this.test();
 
-      console.log('this: ', this);
-      // this.buildURL = function(id) {
-      //   console.log('id: ', id);
-      //   return "http://www.youtube.com/embed/" + id;
-      // }
-      // this.videoURL = `https://www.youtube.com/embed/${this.video.id.videoId}`;
-      // console.log(this.videoURL);
+      // var ctrl = this;
+      // ctrl.buildURL = function() {
+      //   console.log('this.video.id.videoId: ', ctrl.video.id.videoId);
+      //   return '"http://www.youtube.com/embed/"+ctrl.video.id.videoId';
+      // };
+
     },
 
     bindings: {
