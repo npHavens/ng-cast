@@ -7,7 +7,7 @@ angular.module('video-player')
     },
 
     bindings: {
-      video: '<'
-
+      video: '<',
+      onClick: '='
     }
   });
