@@ -7,11 +7,22 @@ angular.module('video-player')
      // console.log(this)
 
       this.videos = exampleVideoData;
-      this.video = this.videos[0];
+      this.currentVideo = this.videos[0];
 
       this.selectVideo= (vid) => {
         console.log('clicked', vid);
-        this.video = vid;
+        this.currentVideo = vid;
       };
+
+      this.searchResults = () => {
+
+      };
+    },
+
+    service: function(youTube) {
+      // get search results and set to currentVideo
+      //this.search
     }
+
+
   });

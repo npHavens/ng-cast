@@ -10,7 +10,7 @@ angular.module('video-player')
 
     bindings: {
       videos: '<',
-      onSelect: '<'
+      onClick: '<'
 
 
     }
