@@ -9,13 +9,14 @@ angular.module('video-player')
       this.videos = exampleVideoData;
       this.currentVideo = this.videos[0];
 
-      this.selectVideo= (vid) => {
+      this.selectVideo = (vid) => {
         console.log('clicked', vid);
         this.currentVideo = vid;
       };
 
-      this.searchResults = () => {
-
+      this.searchResults = (query) => {
+        console.log(query);
+        console.log('searching');
       };
     },
 
